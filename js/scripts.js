@@ -1,3 +1,6 @@
+// Twittler
+// In progress...
+
 // Variables
 var startIndex = 0;
 var maxIndex = 0;

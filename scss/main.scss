@@ -144,7 +144,7 @@ body {
 
 .timestamp {
   color: $light-gray;
-  @include font-size(0.875);
+  @include font-size($small-font-size);
 }
 
 header {
@@ -158,5 +158,5 @@ footer {
    padding: 20px 0 0;
    text-align: center;
 
-   @include font-size(0.875);
+   @include font-size($small-font-size);
 }
