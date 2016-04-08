@@ -1,0 +1,118 @@
+// HELPERS
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// DEFAULT
+// 
+// ----------
+$blue: #6495ed;
+$blue-darker: #4279cd;
+$red: #dc143c;
+$light-red: lighten($red, 50%);
+$green: #228b22;
+$light-green: lighten($green, 50%);
+$orange: #ffa500;
+$yellow: #edb211;
+$light-yellow: lighten($yellow, 42%);
+$slate: #565a5c;
+$gray: #666;
+$medium-gray: darken($gray, 15%);
+$dark-gray: darken($gray, 30%);
+$light-gray: lighten($gray, 25%);
+$white-gray: lighten($gray, 50%);
+$light-weight: 300;
+$normal-weight: 400;
+$semibold-weight: 500;
+$bold-weight: 700;
+$helvetica-font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$oswald-font-stack: "Oswald", sans-serif;
+$roboto-font-stack: "Roboto", sans-serif;
+$francois-one-font-stack:"Francois One", sans-serif;
+$merriweather-font-stack: "Merriweather", Georgia, "Times New Roman", serif;
+$consolas-font-stack: "Consolas", "Courier New", mono;
+$lato-font-stack: "Lato", sans-serif;
+$avenir-font-stack: "Avenir", "Helvetica", sans-serif;
+$bebas-font-stack: "Bebas Neue", sans-serif;
+$sans-serif: $helvetica-font-stack;
+$serif: $merriweather-font-stack;
+$mono: $consolas-font-stack;
+
+// BASE STYLES
+//
+// ----------
+$base-font-color: $dark-gray;
+$base-font-size: 16px;
+$base-font-stack: $avenir-font-stack;
+$base-font-weight: $normal-weight;
+$base-line-height: 1.5;
+
+
+// COLORS
+$color-primary: $blue;
+$color-primary-darker: darken($blue, 7.5%);
+
+// BREAKPOINTS
+//
+// ----------
+// Override mq variables
+
+
+// TYPOGRAPHY
+// ----------
+$header-color: $medium-gray;
+$header-font-family: $roboto-font-stack;
+$header-sizes: (
+  mobile: (
+    'h1': 32,
+    'h2': 26,
+    'h3': 24,
+    'h4': 22,
+    'h5': 20,
+    'h6': 16
+  ),
+  regular: (
+    'h1': 48,
+    'h2': 40,
+    'h3': 31,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16
+  )
+) !default;
+$header-font-style: normal;
+$header-font-weight: $normal-weight;
+$header-line-height: 1.4;
+$header-margin-bottom: 0.5em;
+
+$paragraph-color: inherit;
+$paragraph-line-height: 1.6;
+$paragraph-margin-bottom: 1em;
+$paragraph-font-weight: $normal-weight;
+$paragraph-max-width: auto;//30em;
+
+$small-font-size: 0.8;
+
+
+
+
+// THEME
+// --- Body
+$body-bg: $color-primary;
+
+// --- Default Styling
+$text-primary: $gray;
+
+
+
+// ANIMATIONS
+//
+// ----------
+

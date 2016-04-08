@@ -1,0 +1,17 @@
+@import "neat/neat-helpers";
+
+// Change the grid settings
+$column: 60px;
+$gutter: 30px;
+$grid-columns: 12;
+$max-width: 1080px;
+$visual-grid: false;
+$visual-grid-color: tomato;
+$visual-grid-index: front;
+
+// Define your breakpoints
+$xxsmall: new-breakpoint(20em);
+$xsmall: new-breakpoint(30em);
+$small: new-breakpoint(40em);
+$medium: new-breakpoint(60em);
+$large: new-breakpoint(80em);

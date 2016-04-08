@@ -1,0 +1,574 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"anim",
+				"animation-delay: "
+			],
+			[
+				"ani",
+				"animation-direction: "
+			],
+			[
+				"list-styl",
+				"list-style-type"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/andrewtsao/Desktop/TGA/2016-05-practice-self-assessment/prcs-syntax-errors/syntaxalyze.html",
+			"settings":
+			{
+				"buffer_size": 443978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewtsao/Desktop/TGA/2016-05-practice-self-assessment/prcs-syntax-errors/prcs-syntax-errors.js",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewtsao/Desktop/TGA/2016-05-practice-self-assessment/prcs-syntax-errors/README.md",
+			"settings":
+			{
+				"buffer_size": 579,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"selected_items":
+		[
+			[
+				"sort",
+				"Sort Tabs: Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/app/models/Constants.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/app/views/shared/streamline_home_footer.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/app/views/shared/streamline_home_header.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/www/.htaccess",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/app/views/shared/responsive_home_footer.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/app/views/shared/responsive_home_header.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/app/views/user/profile.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/www/scss/responsive_main.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp/app/views/activate/account.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/theme/_theme.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/responsive_main.scss",
+		"/private/etc/apache2/extra/httpd-ssl.conf",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/account/index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/login/reset.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/vendor/composer/autoload_real.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/index.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/privacy/index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/terms/index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/base/_mixins.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/ie9.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/home_header.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/faq/index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/getstarted/index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/login/forgot.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/login/form.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/contact/index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/responsive_home_footer.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/teaser/responsive_index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/responsive_home_header.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/home_footer.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/base/_variables.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/module/_buttons.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/base/_base.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/module/_nav.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/_grid-settings.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/js/scripts.js",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/layout/_layout.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/module/_modules.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/models/Constants.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/vendor/_bjqs.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/login/forgot-backup.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/login/form-backup.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/contact/index-backup.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/faq/index-backup.phtml",
+		"/Users/andrewtsao/Library/Application Support/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/Users/andrewtsao/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/andrewtsao/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/andrewtsao/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/andrewtsao/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/client/full_dashboard.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/theme/_typography.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/base/_functions.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/.csscomb.json",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/home_header-snippet.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/vendor/_mq.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/css/foundation.css",
+		"/Users/andrewtsao/Downloads/custom-f6/css/app.css",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/vendor/gridle/_settings.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/responsive_home_footer-old.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/layout/_nav.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/base/_typography.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/helpers/_variables.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/helpers/_mixins.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/home_header-backup.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/phpmyadmin/config/config.inc.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/util/mysql",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/www/scss/vendors/_mq.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/base/_mixins.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/vendors/_mq.scss",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/shared/header.phtml",
+		"/Library/Application Support/appsolute/MAMP PRO/conf/php.ini",
+		"/Applications/MAMP/bin/php/php5.6.10/conf/php.ini",
+		"/Applications/MAMP/bin/php/php7.0.0/conf/php.ini",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Applications/MAMP/bin/php/php5.6.10/conf/php.ini.temp",
+		"/Users/andrewtsao/Desktop/AppMyRep/Old/webapp-master/www/index.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/views/teaser/index.phtml",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/controllers/IndexController.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app/plugins/Session.php",
+		"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/util/database.sql",
+		"/Users/andrewtsao/Desktop/yelp-throttle.txt",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_includes/tiles.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/layout/_tiles.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/about/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/layout/_nav.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/base/_variables.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/work/bobaluv/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_includes/home-header.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_layouts/home.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/layout/_header.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/css/main.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/work/luckychinese/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_includes/header.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_config.yml",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/layout/_split-content.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/layout/_portfolio.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/about/codelearn.sublime-project",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/work/demos/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_includes/head.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/work/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/assets/js/scripts.js",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/layout/_footer.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/design/_typography.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/layout/_quick-tiles.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_sass/base/_elements.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_site/about/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_site/work/luckychinese/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_site/work/bobaluv/index.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_site/css/main.css",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_layouts/portfolio.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_layouts/portfolio-bobaluv.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_layouts/portfolio-demos.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/_includes/footer.html",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/css/ie9.scss",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/css/ie9.css",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/css/_ionicons.min.css",
+		"/Users/andrewtsao/Desktop/Portfolio/atsao.github.io/Portfolio.sublime-project",
+		"/Users/andrewtsao/Desktop/Portfolio Examples/LR Website/sponsors.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/andrewtsao/Desktop/AppMyRep/webapp/app",
+			"/Users/andrewtsao/Desktop/AppMyRep/webapp-master/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bounce around",
+			"Basic Details",
+			"cellpadding=",
+			"align='left'",
+			"align=\\\"left\\\"",
+			"align=\"left\"",
+			"desk",
+			"desktop",
+			"Account Details",
+			"load_component_demo",
+			".nav-mobile",
+			"hp5",
+			"site_url",
+			"users_id",
+			"login",
+			"streamline",
+			"$_SESSION",
+			"login.php",
+			"header(",
+			"session_start(",
+			"sinkholed_ip",
+			"&#44;",
+			"accent-red",
+			"$red"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#nav-mobile",
+			",",
+			"accent-color",
+			"$accent"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/andrewtsao/Desktop/TGA/2016-05-practice-self-assessment/prcs-syntax-errors/syntaxalyze.html",
+					"settings":
+					{
+						"buffer_size": 443978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"sorttabs_lastactivated": 1459816532.21,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/andrewtsao/Desktop/TGA/2016-05-practice-self-assessment/prcs-syntax-errors/prcs-syntax-errors.js",
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"sorttabs_lastactivated": 1459816932.06,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/andrewtsao/Desktop/TGA/2016-05-practice-self-assessment/prcs-syntax-errors/README.md",
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"sorttabs_lastactivated": 1459816932.8,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true
+}

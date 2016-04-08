@@ -1,0 +1,162 @@
+// Twittler
+// TGA Precourse Assignment
+// Andrew Tsao
+
+@charset "utf-8";
+
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+@import "base/reset";
+@import "base/mixins";
+@import "base/functions";
+@import "base/variables";
+@import "base/typography";
+@import "base/base";
+
+@import "module/modules";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  @extend %typography;
+
+  background: $body-bg;
+  color: $text-primary;
+  font-family: $base-font-stack;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  min-width: 320px;
+  z-index: 0;
+}
+
+.portal {
+  padding-bottom: 20px;
+}
+
+#user-timeline {
+  display: none;
+
+  @include border-radius(5px);
+}
+
+#user-timeline .tweet {
+  padding: 0;
+}
+
+#user-timeline.active {
+  background: #fff;
+  display: block;
+  height: 70%;
+  max-width: 640px;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  overflow: scroll;
+  width: 90%;
+  z-index: 100;
+
+  @include vendor(transform, translateX(-50%) translateY(-50%));
+  @include media($small) {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+.timeline-close {
+  color: $light-gray;
+  cursor: pointer;
+  display: block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+
+  @include font-size(1.8);
+}
+
+.fixed {
+  overflow: hidden;
+}
+
+.overlay {
+  display: none;
+}
+
+.overlay.active {
+  background: rgba(0, 0, 0, 0.8);
+  display: block;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+#content {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px 0;
+
+  @include border-radius(10px);
+  @include box-shadow(0, 3px, 0, $blue-darker, false);
+  @include fill-parent();
+  @include media($xsmall) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+  @include media($small) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+  @include media($medium) {
+    @include span-columns(6);
+    @include shift(3);
+  }
+}
+
+.tweet {
+  display: none;
+  padding: 0 20px;
+}
+
+.username {
+  color: $base-font-color;
+  font-weight: $bold-weight;
+}
+
+.username:hover {
+  color: $color-primary-darker;
+}
+
+.timestamp {
+  color: $light-gray;
+  @include font-size(0.875);
+}
+
+header {
+  background: $color-primary;
+  padding: 20px 0;
+}
+
+footer {
+   background: $blue-darker;
+   color: #fff;
+   padding: 20px 0 0;
+   text-align: center;
+
+   @include font-size(0.875);
+}

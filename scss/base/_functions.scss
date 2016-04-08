@@ -1,0 +1,6 @@
+// FUNCTIONS
+
+@function px-to-rem($size) {
+  $remSize: $size / 16;
+  @return #{$remSize}rem;
+}

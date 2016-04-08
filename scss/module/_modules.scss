@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portal {
+  text-align: center;
+}
+
+.btn {
+  background: transparent;
+  border: solid 1px transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-size: inherit;
+  padding: 15px 20px;
+  position: relative;
+  left: 50%;
+  width: 100%;
+
+  @include border-radius(5px);
+  @include transition(all, 0.3s, ease-out);
+  @include vendor(transform, translateX(-50%));
+  @include media($xsmall) {
+    width: auto;
+  }
+}
+
+.btn--primary {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn--primary:hover {
+  background: #fff;
+  color: $color-primary-darker;
+}

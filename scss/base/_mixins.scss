@@ -1,0 +1,84 @@
+// --- MIXINS
+$prefixes: -webkit-, -moz-, -o-, "";
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+@mixin border-radius($size...) {
+  @if length($size) == 1 {
+    @each $prefix in $prefixes {
+            #{$prefix}border-radius: $size;
+    }
+  } @else {
+    @include customBorderRadius($size...);
+  }
+}
+
+@mixin customBorderRadius($topLeft: 0, $topRight: 0, $bottomRight: 0, $bottomLeft: 0) {
+  @each $prefix in $prefixes {
+    @if $prefix == "-moz-" {
+      @if $topLeft != 0 { -moz-border-radius-topleft: $topLeft; }
+      @if $topRight != 0 { -moz-border-radius-topright: $topRight; }
+      @if $bottomRight != 0 { -moz-border-radius-bottomright: $bottomRight; }
+      @if $bottomLeft != 0 { -moz-border-radius-bottomleft: $bottomLeft; }
+  } @else {
+      @if $topLeft != 0 { #{$prefix}border-top-left-radius: $topLeft; }
+      @if $topRight != 0 { #{$prefix}border-top-right-radius: $topRight; }
+      @if $bottomRight != 0 { #{$prefix}border-bottom-right-radius: $bottomRight; }
+      @if $bottomLeft != 0 { #{$prefix}border-bottom-left-radius: $bottomLeft; }
+    }
+  }
+}
+
+
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+@mixin vendor($property, $value...){
+  -webkit-#{$property}:$value;
+  -moz-#{$property}:$value;
+  -ms-#{$property}:$value;
+  -o-#{$property}:$value;
+  #{$property}:$value;
+}
+
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+@mixin box-shadow($left, $top, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $left $top $blur $color;
+    -moz-box-shadow:inset $left $top $blur $color;
+    box-shadow:inset $left $top $blur $color;
+  } @else {
+    -webkit-box-shadow: $left $top $blur $color;
+    -moz-box-shadow: $left $top $blur $color;
+    box-shadow: $left $top $blur $color;
+  }
+}
+
