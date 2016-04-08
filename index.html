@@ -2,8 +2,6 @@
 <html>
   <head>
     <title>Twittler</title>
-    <script src="jquery.js"></script>
-    <script src="data_generator.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
@@ -16,19 +14,20 @@
           <button onclick="loadTweets()" class="btn btn--primary">Load Tweets</button>
         </div>
       </header>
-      <div id="user-timeline"></div>
-      <div class="overlay"></div>
       <div class="container">
         <div id="new-alert"></div>
         <section id="content"></section>
       </div>
+      <div id="user-timeline"></div>
+      <div class="overlay"></div>
       <footer>
         <div class="container">
           <p>&copy; 2016 Twittler. All Rights Reserved.</p>
         </div>
       </footer>
     </div>
-    
+    <script src="jquery.js"></script>
+    <script src="data_generator.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
