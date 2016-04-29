@@ -40,7 +40,9 @@ var loadTweets = function() {
           .append($('<p>')
             .append($('<time>')
               .addClass('timestamp')
-              .text(tweet.created_at))));
+              .addClass('timeago')
+              .attr('datetime', tweet.created_at.toISOString())
+              .text(tweet.created_at.toISOString()))));
 
       // Prepend block of tweet elements to the content div and utilize jQuery animation to show
       (tweetBlock).prependTo('#content').show(500);
@@ -49,6 +51,8 @@ var loadTweets = function() {
   // At end of loop, all tweets so far are loaded
   // Re-initialize starting point
   startIndex = maxIndex;
+
+  $("time.timeago").timeago();
 }
 
 // Load User Timeline
@@ -80,7 +84,9 @@ var loadUserTimeline = function(user) {
           .append($('<p>')
             .append($('<time>')
               .addClass('timestamp')
-              .text(userTweet[userTweetsIndex].created_at))));
+              .addClass('timeago')
+              .attr('datetime', userTweet[userTweetsIndex].created_at.toISOString())
+              .text(userTweet[userTweetsIndex].created_at.toISOString()))));
 
     // Show user's tweets and append to initialized user tweet container
     (userTweetBlock).show().appendTo(userTweets);
@@ -97,6 +103,8 @@ var loadUserTimeline = function(user) {
       .attr('href', 'javascript:clearUserTimeline();'))
       .attr('title', 'Close')
     .append(userTweets).show();
+
+    $("time.timeago").timeago();
 
   // Add classes to the user timeline, overlay, and body to focus the modal window
   $('#user-timeline').addClass('active');
@@ -144,6 +152,9 @@ $('.overlay').on('click', clearUserTimeline);
 $(document).ready(function() {
   // Initial load of tweets
   loadTweets();
+
+  // Initialize time ago
+  $("time.timeago").timeago();
 
   // Initial check for new tweets
   checkTweets();
